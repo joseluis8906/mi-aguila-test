@@ -3,8 +3,8 @@
 Url base: /api/v1 <br>
 El api consta de los siguientes endpoints: <br>
 1). /travels: <br>
-   method: POST <br>
-   body(example):
+   method: POST, Crea un recurso de tipo travel en el store. <br>
+   body(example): <br>
    {
 	"start": {
 		"date": "2019-01-25T19:06:27.936+0000",
@@ -58,8 +58,14 @@ El api consta de los siguientes endpoints: <br>
 		]
 	}
 }
-
 <br>
+<br>
+method: GET, retorna el número total de viajes en el store.<br>
+<br>
+2). /travels/:city <br>
+  Method: GET, retorna el número de viajes filtrado por el parámetro city. <br>
+  parameter(example): [Bogotá, Medellin]
+
 ## Installation
 
 ```bash
