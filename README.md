@@ -65,6 +65,9 @@ method: GET, retorna el número total de viajes en el store.<br>
 2). /travels/:city <br>
   Method: GET, retorna el número de viajes filtrado por el parámetro city. <br>
   parameter(example): [Bogotá, Medellin]
+<br>
+<br>
+Nota: modifique la URI de la base de datos mongo en el archivo properties.ts<br><br>
 
 ## Installation
 
